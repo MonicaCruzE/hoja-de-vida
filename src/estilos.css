@@ -1,17 +1,43 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    color: blue;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border-style:solid  ; */
+    background-color: rgba(0, 128, 0, 0.336);
+    border-width: 2px;
+    }
+
+.arriba{
+      align-content:  center;
+
+}
+.primero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ 
+}
+h1 h3{
+    display: flex;
+    margin-top: 50px;
+}
+.segundo{
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+    width: 700px;
+    background-color: rgba(245, 245, 220, 0.719);
+}
+p{
+     margin: 50px;
+    text-align: justify  ;
     
-           
 }
-div{
-    background-image: "img/Logo Chaparral.png";
-}
-h2{
-    text-align: center;
-}
-h3{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: brown;
+
+h4{
+    font-size: small;
+    color: rgba(0, 0, 0, 0.699);
 }
